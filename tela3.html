@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equipe de Desenvolvimento</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #d4af78;
+    }
+
+    /* TOPO */
+    .topo {
+      background-color: #4b0909;
+      padding: 20px 22px;
+      color: white;
+      text-align: center;
+    }
+
+    .topo h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .menu {
+      background-color: #3a0303;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      padding: 9px 0;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* QUEM SOMOS */
+    .quemsomos {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #d4af78;
+    }
+
+    .quemsomos h2 {
+      color: #4b0909;
+      margin-bottom: 10px;
+    }
+
+    .quemsomos p {
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 30px auto;
+      flex-wrap: wrap;
+    }
+
+    .galeria img {
+      width: 350px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* EQUIPE */
+    .equipe {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .equipe h3 {
+      color: #4b0909;
+      margin-bottom: 20px;
+    }
+
+    .integrantes {
+      display: flex;
+      justify-content: center;
+      gap: 250px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .membro {
+      text-align: center;
+    }
+
+    .membro img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .membro p {
+      margin: 8px 0 0;
+    }
+
+    .linha {
+      width: 60%;
+      height: 2px;
+      background-color: #333;
+      margin: 30px auto;
+    }
+
+    /* RODAPÉ */
+   footer {
+  background-color: #2b0604;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  gap: 40px;              
+  flex-wrap: wrap;        
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.4;
+  max-width: 300px; 
+}
+
+footer img {
+  height: 60px;
+  width: auto;
+}
+
+   .logo-if {
+  height: 100px;
+  width: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPO -->
+  <div class="topo">
+    <h1>HISTÓRIA</h1>
+  </div>
+
+  <div class="menu">
+    <a href="file:///C:/Users/ellen/OneDrive/historia_html/index.html">Página inicial</a>
+    <a href="file:///C:/Users/ellen/OneDrive/historia_html/tela2.html">Conteúdos</a>
+    <a href="file:///C:/Users/ellen/OneDrive/historia_html/tela3.html"><strong>Equipe de desenvolvimento</strong></a>
+  </div>
+
+  <!-- QUEM SOMOS -->
+  <section class="quemsomos">
+    <h2>Quem somos</h2>
+    <p>
+      Somos estudantes do Instituto Federal de Educação, Ciência e Tecnologia do Estado do Rio Grande do Norte,
+      especificamente do curso técnico integrado em informática no terceiro ano do Campus Santa Cruz. Em meio às
+      disciplinas cursadas, foi solicitado um trabalho de desenvolvimento de um protótipo na matéria de Autoria Web.
+    </p>
+
+    <div class="galeria">
+      <img src="img1.jpeg" alt="Imagem 1">
+      <img src="img2.jpeg" alt="Imagem 2">
+      <img src="img3.jpeg" alt="Imagem 3">
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="equipe">
+    <h3>Nossa equipe</h3>
+
+    <div class="membro">
+      <img src="marcl.img.jpeg" alt="Marcelo Júnior">
+      <p><strong>Marcelo Júnior</strong><br>Professor</p>
+    </div>
+
+    <div class="linha"></div>
+
+    <div class="integrantes">
+      <div class="membro">
+        <img src="erick.img.jpeg" alt="Erick">
+        <p><strong>Erick Valentim</strong><br>Estudante</p>
+      </div>
+      <div class="membro">
+        <img src="luan.img.jpeg" alt="Luanne">
+        <p><strong>Luanne Aysla</strong><br>Estudante</p>
+      </div>
+      <div class="membro">
+        <img src="edu.img.jpeg" alt="Maria">
+        <p><strong>Maria Eduarda</strong><br>Estudante</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+  <p><strong>HISTÓRIA</strong><br>Esse é um site educacional, sem fins lucrativos. Desenvolvido para fins acadêmicos.</p>
+  <img src="ifrn.logo.png" alt="Instituto Federal" class="logo-if">
+  <p><br> Trabalho de Autoria Web<br> <br>Professor: Marcelo Figueiredo Barbosa Junior<br>
+     <br> Alunos: Erick Bruno da Silva Valentim
+    <br> Maria Eduarda Silva de Lima
+    <br> Luanne Aysla Dantas Bezerra<br>
+    </p>
+  </footer>
+  
+
+</body>
+</html>
