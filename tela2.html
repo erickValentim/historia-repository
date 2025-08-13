@@ -11,7 +11,6 @@
       background-color: #d4af78;
     }
 
-    /* TOPO */
     .topo-titulo {
       background-color: #4b0909;
       color: white;
@@ -32,7 +31,6 @@
       background-color: rgb(58, 3, 3);
       display: flex;
       justify-content: center;
-      gap: 80px;
       padding: 12px 0;
     }
 
@@ -47,7 +45,7 @@
       text-decoration: underline;
     }
 
-    /* SEÇÃO DE CONTEÚDOS */
+
     .conteudos {
       text-align: center;
       padding: 40px 20px;
@@ -61,16 +59,13 @@
 
     .grid-bimestres {
       display: grid;
-      grid-template-columns: repeat(2, 600px);
-      grid-gap: 30px;
-      justify-content: center;
+
     }
 
     .bloco {
       width: 100%;
       height: 300px;
       border-radius: 10px;
-      overflow: hidden;
       box-shadow: 0 4px 8px rgba(0,0,0,0.3);
       position: relative;
     }
@@ -78,7 +73,6 @@
     .bloco img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
     }
 
     .bloco-texto {
@@ -95,7 +89,7 @@
     }
     
 
-    /* RODAPÉ */
+
    footer {
   background-color: #2b0604;
   color: white;
@@ -103,11 +97,7 @@
   font-size: 14px;
   text-align: center;
 
-  display: flex;
-  justify-content: center; 
-  align-items: center;    
-  gap: 40px;               
-  flex-wrap: wrap;         
+  display: flex;         
 }
 
 footer p {
@@ -128,12 +118,12 @@ footer img {
 </head>
 <body>
 
-  <!-- TOPO -->
+
   <div class="topo-titulo">
     <h1><span>HISTÓRIA</span></h1>
   </div>
 
-  <!-- MENU -->
+
   <div class="topo-menu">
     <a href="file:///C:/Users/ellen/OneDrive/historia_html/index.html">Página inicial</a>
     <a href="file:///C:/Users/ellen/OneDrive/historia_html/tela2.html">Conteúdos</a>
@@ -141,8 +131,7 @@ footer img {
   </div>
 
 
-  <!-- CONTEÚDOS -->
-  <section class="conteudos">
+    <section class="conteudos">
     <h2>Aqui estão contidos os conteúdos por bimestre:</h2>
     <div class="grid-bimestres">
       <div class="bloco">
@@ -164,7 +153,6 @@ footer img {
     </div>
   </section>
 
-  <!-- RODAPÉ -->
   <footer>
     <p><strong>HISTÓRIA</strong><br>Esse é um site educacional, sem fins lucrativos. Desenvolvido para fins acadêmicos.</p>
     <img src="ifrn.logo.png" alt="Instituto Federal" class="logo-if">
